@@ -17,8 +17,8 @@ namespace PixelWorldsServer2.Networking.Server
     public class PWServer
     {
         private readonly Timer tickTimer = new Timer(FeatherDefaults.PING_CLOCK_MS);
-        public bool wantsShutdown = false;
-        public int Version = 92;
+            public bool wantsShutdown = false;
+        public int Version = 103;
         public int Port; // for quick-accessibility
         private FeatherServer fServer = null;
         private MessageHandler msgHandler = null;
